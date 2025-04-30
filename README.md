@@ -1,3 +1,13 @@
+changes in this fork:
+- m8c mode is the default
+- added debouncing via Timer.h
+- added hint comment for the correct Joystick lib: https://github.com/MHeironimus/ArduinoJoystickLibrary
+
+Thanks a lot to Charles Hobbs! @miotislucifugis
+
+---
+
+
 # Tracker-Controller
 An Arduino Pro Micro-based USB gamepad code and pcb layout with mechanical key switches. Inspired by the layout and dimensions of the Dirtywave M8 tracker; suitable for M8 headless use, as well as other trackers that uses the NES-style layout, like LSDJ.
 Emmulates either joystick or keyboard commands.  Multiple alternate keymapping modes available, configured by holding a key during start up.  
